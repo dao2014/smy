@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+        <!-- 命名空间 -->
+    <typeAliases>
+         <typeAlias alias="User" type="com.hmh.ibatis.model.User"/>
+    </typeAliases>
+ 
+    <!-- 映射map，这里在spring-mybatis.xml配置的扫描，如果不用扫描，则需要在这里配置 -->
+    <mappers>
+    	<!-- <mapper resource="classpath:mapper/UserMapper.xml" />  -->
+    </mappers>
+</configuration>
